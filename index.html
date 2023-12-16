@@ -1,8 +1,7 @@
-<!-- The above code is creating a calculator interface using HTML, CSS, and JavaScript. It uses the
-Tailwind CSS framework for styling. The calculator allows users to input numbers and perform basic
-arithmetic operations such as addition, subtraction, multiplication, and division. The calculator
-also includes buttons for clearing the input, deleting the last character, and calculating the
-result. -->
+<!-- The above code is an HTML document that creates a calculator interface using Tailwind CSS. It
+includes a text input field for displaying the calculator input and result, as well as buttons for
+inputting numbers and performing calculations. The JavaScript code handles the logic for adding
+numbers to the input field, deleting characters, and evaluating the input to display the result. -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,7 +32,7 @@ result. -->
       <div
         class="bg-black pt-6 pb-3 px-3 sm:p-8 max-w-[359px] sm:max-w-[542px] h-full rounded-xl"
       >
-        <div class="px-2 py-4 bg-gray-600 rounded-xl sm:mb-8 mb-3">
+        <div class="px-2 py-5 bg-gray-600 rounded-xl sm:mb-8 mb-3">
           <input
             id="InputValue"
             class="w-full outline-0 h-full text-2xl sm:text-4xl bg-transparent text-white text-end"
@@ -217,7 +216,7 @@ result. -->
             myInput.value = eval(myInput.value);
           }
         } catch (error) {
-          myInput.value = "input value not correct";
+          myInput.value = "Type value in open eyes 😁";
         }
       }
     </script>
